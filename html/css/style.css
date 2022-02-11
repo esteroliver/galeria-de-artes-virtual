@@ -73,3 +73,12 @@ main h3{
     color: #a46158;
     text-align: center;
 }
+footer{
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: larger;
+    padding: 7px;
+    margin-top: 30px;
+    background-color: #798f6a;
+}
