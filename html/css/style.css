@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Serif+4&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Prata&family=Secular+One&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Prata&family=Secular+One&family=Source+Serif+4&display=swap');
 
 :root{
     --fonte-padrao: 'Source Serif 4', sans-serif;
     --fonte-destaque: 'Secular One', sans-serif;
     --fonte-titulo: 'Prata', serif;
+    --fonte-destaque-2: 'Courgette', cursive;
 
     --cor0: #e9dfd5;
     --cor1:#e5d5be;
@@ -17,24 +19,57 @@
 }
 
 body{
-    height: 1000px;
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+    height: 750px;
+    background-color: var(--cor0);
     background-size: cover;
     background-repeat: no-repeat;
 }
-nav ul li{
-    list-style: none;
-    font-size: larger;
+nav{
     text-align: center;
-    font-family: var(--fonte-destaque);
+    margin-bottom: 60px;
+}
+nav a{
+    text-decoration: none;
     color: #222222;
+    font-family: var(--fonte-destaque);
+    font-size: larger;
+    margin-right:  20px;
 }
 #titulo{
     display: flex;
     text-align: center;
+    align-items: center;
 }
 #titulo h1{
     font-family: var(--fonte-titulo);
     color: #222222;
     align-items: center;
+    font-size: 45px;
+}
+#titulo h2{
+    color: #a46158;
+    font-family: var(--fonte-titulo);
+    font-size: 30px;
+    font-weight: bolder;
+}
+#titulo-2{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+main p{
+    text-indent: 2em;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: #222222;
+    font-size: larger;
+}
+main h3{
+    font-family: var(--fonte-destaque);
+    font-size: 25px;
+    width: auto;
+    color: #a46158;
+    text-align: center;
 }
