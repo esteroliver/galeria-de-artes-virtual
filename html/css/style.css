@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Prata&family=Secular+One&family=Source+Serif+4&display=swap');
+
+:root{
+    --fonte-padrao: 'Source Serif 4', sans-serif;
+    --fonte-destaque: 'Secular One', sans-serif;
+    --fonte-titulo: 'Prata', serif;
+
+    --cor0: #e9dfd5;
+    --cor1:#e5d5be;
+    --cor2: #d6a980;
+    --cor3: #a46158;
+    --cor4: #798f6a;
+
+    --cinza: #222222;
+}
