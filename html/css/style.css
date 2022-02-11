@@ -82,3 +82,18 @@ footer{
     margin-top: 30px;
     background-color: #798f6a;
 }
+#sobre h2{
+    color: #a46158;
+    font-family: var(--fonte-padrao);
+    font-size: 30px;
+}
+#sobre{
+    text-align: center;
+}
+#devs{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 40px;
+    color: #222222;
+    margin: auto;
+}
