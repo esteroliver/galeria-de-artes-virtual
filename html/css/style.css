@@ -83,6 +83,7 @@ footer{
     margin-top: 30px;
     background-color: #798f6a;
     border-radius: 10px;
+    position: relative;
 }
 #sobre h2{
     color: #a46158;
@@ -102,4 +103,15 @@ footer{
     font-size: 40px;
     color: #222222;
     margin: auto;
+}
+#obras{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+.obras a{
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    color: #222222;
+    text-decoration: underline;
 }
