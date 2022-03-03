@@ -83,7 +83,6 @@ footer{
     margin-top: 30px;
     background-color: #798f6a;
     border-radius: 10px;
-    position: relative;
 }
 #sobre h2{
     color: #a46158;
@@ -106,12 +105,52 @@ footer{
 }
 #obras{
     text-align: center;
-    margin: auto;
     padding: 50px;
+    margin: auto;
+    margin-bottom: 170px;
+    
 }
 .obras a{
     text-decoration: none;
     font-family: var(--fonte-titulo);
     color: #222222;
     text-decoration: underline;
+    margin: 50px;
+}
+#pag-obras{
+    display: flex;
+}
+.nomes th{
+    font-family: var(--fonte-destaque);
+    font-size: 30px;
+    color: #222222; 
+    text-align: justify;
+}
+.obras-alunos tr th p{
+    text-align: justify;
+    text-indent: 2em;
+    font-family: var(--fonte-padrao);
+    color: #222222;
+    font-size: larger;
+    margin: 20px;
+}
+.obras-alunos{
+    margin: auto;
+}
+.imagens th img{
+    border: 5px double #222222;
+}
+main h1{
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: #a46158;
+    font-size: 45px;
+}
+#sobre-2 ul{
+    margin: auto;
+}
+#sobre-2 ul li{
+    font-family: var(--fonte-destaque);
+    color: #222222;
+    font-size: larger;
 }
