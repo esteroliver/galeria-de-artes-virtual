@@ -146,9 +146,6 @@ main h1{
     color: #a46158;
     font-size: 45px;
 }
-#sobre-2 ul{
-    margin: auto;
-}
 #sobre-2 ul li{
     font-family: var(--fonte-destaque);
     color: #222222;
