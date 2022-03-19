@@ -122,16 +122,16 @@ footer{
 }
 .nomes th{
     font-family: var(--fonte-destaque);
-    font-size: 30px;
+    font-size: 20px;
     color: #222222; 
     text-align: justify;
 }
 .obras-alunos tr th p{
     text-align: justify;
     text-indent: 2em;
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-titulo);
     color: #222222;
-    font-size: larger;
+    font-size: large;
     margin: 20px;
 }
 .obras-alunos{
