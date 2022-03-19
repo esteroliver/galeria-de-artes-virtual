@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Artes Virtual - Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="mainjs.js" defer></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .intro{
+            height: 100vh;
+        }
+        .slide{
+            position: absolute;
+            top: 400px;
+            left: 530px;
+            object-fit: cover;
+            opacity: 0;
+            border: 5px solid black;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -13,14 +33,20 @@
        <a href="obras.html">Obras</a>
        <a href="sobre.html">Sobre</a>
     </nav>
-    <div id="titulo">
-        <aside><img src="imagens/1.png" alt="" height="400px" width="200px"></aside>
-        <div id="titulo-2">
-            <h1>Galeria de Artes Virtual</h1>
-            <h2>Vatenor de Oliveira</h2>
+    <header class="intro">
+        <div id="titulo">
+            <aside><img src="imagens/1.png" alt="" height="400px" width="200px"></aside>
+            <div id="titulo-2">
+                <h1>Galeria de Artes Virtual</h1>
+                <h2>Vatenor de Oliveira</h2>
+                <img src="obras/slide1.jpg" class="slide" width="300px" height="300px">
+                <img src="obras/slide2.jpg" class="slide" width="300px" height="300px">
+                <img src="obras/slide3.jpg" class="slide" width="300px" height="300px">
+                <img src="obras/slide4.jpg" class="slide" width="300px" height="300px">
+            </div>
+            <aside><img src="imagens/2.png" alt="" height="400px" width="200px"></aside>
         </div>
-        <aside><img src="imagens/2.png" alt="" height="400px" width="200px"></aside>
-    </div>
+    </header>
     <main>
         <h3>Olá! Boas-vindas à galeria virtual Vatenor de Oliveira!</h3>
         <p>Aqui você vai encontrar várias obras de artes disponíveis feitas por vários alunos do IFRN campus Parnamirim. Na barra lateral, você pode navegar facilmente pelo site para conhecer mais das obras, além de poder ver comentários do autor e interpretações de imagens. Esperamos que se divirta navegando por esta galeria que, pra nós, é única e especial! </p>
