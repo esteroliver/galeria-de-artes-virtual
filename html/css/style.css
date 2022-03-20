@@ -17,7 +17,23 @@
 
     --cinza: #222222;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro{
+    height: 100vh;
+}
+.slide{
+    position: absolute;
+    top: 400px;
+    left: 530px;
+    object-fit: cover;
+    opacity: 0;
+    border: 5px solid black;
+    transition: opacity 1s ease-in-out;
+}
 body{
     height: 750px;
     background-color: var(--cor0);
@@ -75,6 +91,8 @@ main h3{
 }
 footer{
     text-align: center;
+    position: relative;
+    top: 17%;
     display: block;
     color: white;
     font-family: var(--fonte-padrao);
