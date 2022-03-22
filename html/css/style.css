@@ -27,11 +27,11 @@
 }
 .slide{
     position: absolute;
-    top: 400px;
+    top: 360px;
     left: 530px;
     object-fit: cover;
     opacity: 0;
-    border: 5px solid black;
+    border: 5px double black;
     transition: opacity 1s ease-in-out;
 }
 body{
@@ -89,6 +89,9 @@ main h3{
     color: #a46158;
     text-align: center;
 }
+#icones th img{
+    border: 5px double #222222;
+}
 footer{
     text-align: center;
     position: relative;
@@ -97,10 +100,9 @@ footer{
     color: white;
     font-family: var(--fonte-padrao);
     font-size: larger;
-    padding: 7px;
+    padding: 15px;
     margin-top: 30px;
     background-color: #798f6a;
-    border-radius: 10px;
 }
 #sobre h2{
     color: #a46158;
@@ -168,4 +170,23 @@ main h1{
     font-family: var(--fonte-destaque);
     color: #222222;
     font-size: larger;
+}
+#nomes-artistas ul li{
+    display: flex;
+
+}
+#referencias li a{
+    color: #222222;
+}
+.imagens th img{
+    margin: 40px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.imagens:hover th img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
