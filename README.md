@@ -1,2 +1,0 @@
-# galeria-de-artes-virtual
- 
